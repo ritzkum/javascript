@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    margin: 2%;
+    background-color: lightblue;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.section1 {
+    padding-top: 50px;
+}
+
+.section2 {
+    padding-top: 50px;
+    color: #fff;
+}
+
+.box {
+    margin: 5%;
+    border-style: outset;
+    padding: 80px;
+    border-radius: 20px;
+}
+
+ol {
+    line-height: 40px;
+    font-size: xx-large;
+}
+
+.photoArea {
+    margin-top: 20px;
+}

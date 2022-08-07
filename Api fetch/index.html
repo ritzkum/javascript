@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="section1">
+            <h1>Photo Previewer</h1>
+            <div class="box">
+                <ol>
+                    <li onclick="getRandom()">Photo 1</li>
+                    <li onclick="getRandom()" class="textImg">Photo 2 long text</li>
+                    <li onclick="getRandom()">Photo 3</li>
+                    <li onclick="getRandom()">Photo 4</li>
+                    <li onclick="getRandom()" class="textImg">Photo long text 5</li>
+                    <li onclick="getRandom()">Photo 6</li>
+                    <li onclick="getRandom()" class="textImg">Photo more long text 7</li>
+                </ol>
+            </div>
+        </div>
+        <div class="section2">
+            <p id="text"></p>
+            <div class="photoArea">
+                <span id="finalImg"></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

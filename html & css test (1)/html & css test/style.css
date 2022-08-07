@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ .container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  position: absolute;
+  width: 666px;
+  height: 640px;
+  left: calc(50% - 666px / 2);
+  border-radius: 40px;
+  background: #32ff7e;
+  box-shadow: 0px 8px 35px 5px rgba(0, 0, 0, 0.32);
+} 
+.cir {
+  border-radius: 100%;
+  padding-top: 40px;
+
+}
+.img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 620px;
+  top: 211px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-right: -217px;
+
+}
+.btn:hover{
+  background-color: blueviolet;
+}
+#user{
+    width: 310px;
+    height: 34px;
+    border-radius: 10px;
+}
+#pass{
+    width: 310px;
+    height: 34px;
+    border-radius: 10px;
+}

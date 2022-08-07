@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 80px;
+    display: flex;
+    background-color:#CECCCC;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.box{
+    padding: 40px;
+    width: 650px;
+height: 497px;
+left: 54px;
+top: 307px;
+font-size: 27px;
+font-family: 'Carrois Gothic SC';
+}
+ .left-sec span{
+    font-size: 32px;
+    font-weight: 800px;
+}
+.container h2{
+    color: #FFFFFF;
+    font-family: 'Carrois Gothic SC';
+    margin-left: 40px;
+    font-size: 35px;
+}
+.right_sec{
+    padding: 30px;
+    width: 450px;
+    margin-right: -30px;
+    height: 447px;
+left: calc(50% - 650px/2 + 341px);
+top: calc(50% - 789px/2 - 0.5px);
+background-color: #CECCCC;
+box-shadow: 0px 0px 10px 0px ;
+border-radius: 10px;
+}
+.refresh{
+    width: 100px;
+height: 40px;
+left: calc(50% - 257px/2 - 144.5px);
+top: calc(50% - 57px/2 + 365.5px);
+box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.25);
+margin: 20px;
+/* background-color: black; */
+background-color:rgba(136, 130, 130, 0.342);
+color: black;
+font-weight: bold;
+border-radius: 6px;
+outline: none;
+border: none;
+cursor: pointer;
+transition-duration: 1s;
+transition-delay: 10ms
+}
+.refresh:hover{
+    /* background-color: #898989; */
+    background-color: black;
+    color: whitesmoke;
+    transition-delay: 50ms
+}
+table ol {
+    width: 600px;
+    
+}
+ol li{
+    height: 53px;
+}
+.btn{
+  text-align: end;
+}
+/* .box ol li:nth-child(odd) {
+    background-color: #ededed;
+}
+.box ol li:nth-child(even) {
+    background-color: #7c7474;
+}
+ol li{
+    font-weight: 600px;
+    list-style: none;
+    cursor: pointer;
+}
+.box ol li:nth-child(odd):hover{
+    background-color: #b3b0b0;  
+}
+.box ol li:nth-child(even):hover{
+    background-color: #bbbbbb;
+} */
+ol {
+    list-style-type: none;
+    counter-reset: css-counters 0;
+}
+
+ol li:before {
+    counter-increment: css-counters;
+    content: counters(css-counters, '.') " ";
+}
+#photos img{
+    width: 450px;
+    height: 447px;
+    border-radius: 10px;
+}
+li{
+    padding-left: 10px;
+    cursor: pointer;
+}
+ li:nth-child(odd) {
+    background-color: #ededed;
+}
+ li:nth-child(even) {
+    background-color: #dedede;
+}
+li:nth-child(odd):hover{
+    background-color: #b3b0b0;  
+}
+li:nth-child(even):hover{
+    background-color: #bbbbbb;
+}

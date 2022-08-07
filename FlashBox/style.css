@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Nunito:wght@300&family=Oswald:wght@200;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: whitesmoke;
+}
+header{
+    background-color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin: 0 1rem;
+}
+.nav-btn button{
+    padding: 7px;
+    outline: none;
+    cursor: pointer;
+    border:1px solid lightgray;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin-left: 8px;
+    transition: 0.7s;
+}
+.nav-btn button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.container{
+    margin-top: 3rem;
+    
+    width: 28rem;
+    height: 20rem;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 7px;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px 0 black;
+}
+.container h2 {
+    padding: 1.5rem;
+    text-align: center;
+}
+.main-box{
+    margin-top: 3rem;
+}
+.flash-btn button{
+    padding: 9px;
+    outline: none;
+    cursor: pointer;
+    border:1px solid lightgray;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    transition: 0.7s;
+    
+}
+.flash-btn button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+#Question , #Answer{
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+}
+.flashCards{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.flashCards{
+    width: 380px;
+    height: 200px;
+    word-wrap: break-word;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0 , 0.5);
+
+}
+.flashCards h2{
+    font-size: 1rem;
+}
+
+/* @media(max-width:480px){
+    .flashCard{
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+} */
